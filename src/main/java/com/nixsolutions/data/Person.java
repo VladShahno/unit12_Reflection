@@ -17,8 +17,10 @@ public class Person {
     private Gender gender;
 
     public enum Fields {
-        ID(0, "id"),
-        NAME(1, "name");
+        ID(1, "id"),
+        NAME(2, "name"),
+        ISUSER(3, "isuser"),
+        GENDER(4, "gender");
 
         private int fieldIndex;
         private String fieldsName;
